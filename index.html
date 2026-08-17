@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Credit Check | Credit Score & Report</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f1f5f9;
+    color:#172033;
+}
+
+.container{
+    max-width:500px;
+    margin:auto;
+    padding:20px;
+}
+
+/* HEADER */
+
+.header{
+    text-align:center;
+    padding:30px 10px 18px;
+}
+
+.header h1{
+    font-size:30px;
+    line-height:1.2;
+    margin-bottom:10px;
+}
+
+.header p{
+    color:#64748b;
+    font-size:15px;
+    line-height:1.5;
+}
+
+/* MAIN PANEL */
+
+.panel{
+    background:#ffffff;
+    border:1px solid #e2e8f0;
+    border-radius:18px;
+    padding:24px;
+    margin-top:10px;
+    box-shadow:0 6px 20px rgba(15,23,42,.05);
+}
+
+.panel-top{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:18px;
+}
+
+.panel-title{
+    font-size:19px;
+    font-weight:bold;
+}
+
+.status{
+    font-size:12px;
+    font-weight:bold;
+    color:#15803d;
+    background:#dcfce7;
+    padding:6px 10px;
+    border-radius:20px;
+}
+
+/* CREDIT ITEMS */
+
+.check-item{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    padding:15px 0;
+    border-bottom:1px solid #eef2f7;
+}
+
+.check-item:last-of-type{
+    border-bottom:0;
+}
+
+.check-icon{
+    width:42px;
+    height:42px;
+    min-width:42px;
+    border-radius:12px;
+    background:#f8fafc;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:19px;
+}
+
+.check-text{
+    flex:1;
+}
+
+.check-text strong{
+    display:block;
+    font-size:15px;
+    margin-bottom:3px;
+}
+
+.check-text span{
+    color:#64748b;
+    font-size:13px;
+    line-height:1.4;
+}
+
+/* CTA */
+
+.cta{
+    margin-top:22px;
+}
+
+.button{
+    display:block;
+    width:100%;
+    background:#1d5f9f;
+    color:#fff;
+    text-decoration:none;
+    text-align:center;
+    padding:16px;
+    border-radius:12px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.button:hover{
+    background:#174f87;
+}
+
+.note{
+    text-align:center;
+    color:#64748b;
+    font-size:11px;
+    margin-top:10px;
+    line-height:1.5;
+}
+
+/* HOW IT WORKS */
+
+.info{
+    margin-top:28px;
+}
+
+.info h2{
+    font-size:20px;
+    margin-bottom:12px;
+}
+
+.info-box{
+    background:#fff;
+    border:1px solid #e2e8f0;
+    border-radius:13px;
+    padding:16px;
+    margin-bottom:10px;
+}
+
+.info-box strong{
+    display:block;
+    font-size:14px;
+    margin-bottom:4px;
+}
+
+.info-box p{
+    color:#64748b;
+    font-size:13px;
+    line-height:1.5;
+}
+
+/* FOOTER */
+
+.footer{
+    text-align:center;
+    color:#94a3b8;
+    font-size:11px;
+    line-height:1.5;
+    padding:28px 10px 20px;
+}
+
+/* MOBILE */
+
+@media(max-width:380px){
+
+    .container{
+        padding:15px;
+    }
+
+    .header{
+        padding-top:25px;
+    }
+
+    .header h1{
+        font-size:27px;
+    }
+
+    .panel{
+        padding:20px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<header class="header">
+
+    <h1>
+        Check Your Credit Score
+    </h1>
+
+    <p>
+        Access your credit score and available credit report online.
+    </p>
+
+</header>
+
+
+
+<section class="panel">
+
+
+    <div class="panel-top">
+
+        <div class="panel-title">
+            Credit Report Overview
+        </div>
+
+        <div class="status">
+            Secure
+        </div>
+
+    </div>
+
+
+
+    <div class="check-item">
+
+        <div class="check-icon">
+            📊
+        </div>
+
+        <div class="check-text">
+
+            <strong>
+                Credit Score
+            </strong>
+
+            <span>
+                Access your available credit score information.
+            </span>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="check-item">
+
+        <div class="check-icon">
+            📄
+        </div>
+
+        <div class="check-text">
+
+            <strong>
+                3-Bureau Credit Report
+            </strong>
+
+            <span>
+                Review available credit information from three major bureaus.
+            </span>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="check-item">
+
+        <div class="check-icon">
+            📋
+        </div>
+
+        <div class="check-text">
+
+            <strong>
+                Credit Report Details
+            </strong>
+
+            <span>
+                Review information included in your available credit profile.
+            </span>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="check-item">
+
+        <div class="check-icon">
+            🔒
+        </div>
+
+        <div class="check-text">
+
+            <strong>
+                Secure Online Process
+            </strong>
+
+            <span>
+                Complete your credit check through the secure offer page.
+            </span>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="cta">
+
+        <a
+            class="button"
+            href="https://afflat3a2.com/trk/lnk/76FE2F00-4E21-47D0-8C8B-D18906F20FCA/?o=30322&c=918277&a=766361&k=684B068EABA3981DE130D01F7B494015&l=34593&s1=SDP=Hunter02"
+        >
+            Check My Credit Score
+        </a>
+
+        <div class="note">
+            Continue to the secure offer page to complete your credit check.
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<section class="info">
+
+    <h2>
+        How It Works
+    </h2>
+
+
+    <div class="info-box">
+
+        <strong>
+            1. Start Your Credit Check
+        </strong>
+
+        <p>
+            Select the button above to begin the online process.
+        </p>
+
+    </div>
+
+
+
+    <div class="info-box">
+
+        <strong>
+            2. Complete Verification
+        </strong>
+
+        <p>
+            Follow the instructions and provide the required information.
+        </p>
+
+    </div>
+
+
+
+    <div class="info-box">
+
+        <strong>
+            3. Review Your Credit Information
+        </strong>
+
+        <p>
+            Access the credit information made available through the service.
+        </p>
+
+    </div>
+
+
+</section>
+
+
+
+<footer class="footer">
+
+    © 2026 Credit Check Services
+
+</footer>
+
+
+</div>
+
+
+</body>
+</html>
